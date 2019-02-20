@@ -1,7 +1,4 @@
-pipeline {
-    agent {
-    label 'slave01'
-    }
+node {
     def app
 
     stage('Clone repository') {
